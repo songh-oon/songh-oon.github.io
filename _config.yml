@@ -27,9 +27,9 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-paginate-multiple
+#  - jekyll-paginate-multiple
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
+  - jemoji 
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
@@ -37,16 +37,16 @@ permalink:      /:year-:month-:day/:title
 
 
 paginate: 5
-paginate_multiple:
-  - paginate: 4
-    paginate_path: '/study/page:num/'
-    sub_dir: '/study'
-  - paginate: 4
-    paginate_path: '/daily/page:num/'
-    sub_dir: '/daily'
-  - paginate: 4
-    paginate_path: '/thoughts/page:num/'
-    sub_dir: '/thoughts'
+#paginate_multiple:
+#  - paginate: 4
+#    paginate_path: '/study/page:num/'
+#    sub_dir: '/study'
+#  - paginate: 4
+#    paginate_path: '/daily/page:num/'
+#    sub_dir: '/daily'
+#  - paginate: 4
+#    paginate_path: '/thoughts/page:num/'
+#    sub_dir: '/thoughts'
 
 
 

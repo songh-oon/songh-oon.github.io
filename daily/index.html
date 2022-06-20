@@ -14,25 +14,16 @@ description: 나의 일상, 경험들
 <div class="catalogue">
     
   {% for post in site.posts %}
-    {% if post.sticky and post.menu=="일상" %}
+    {% if post.sticky %}
       {% include catalogue_item.html sticky='true' %}
     {% endif %}
   {% endfor %}
 
-{% for post in paginator.posts %}
-    {% include catalogue_item.html %}
+  {% assign sorted = site.posts | sort: 'order' %}
+  {% for post in sorted %}
+    {% if post.menu == "일상" %}
+      {% include catalogue_item.html %}
+    {% endif %}
   {% endfor %}
-</div>
-
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
-  {% endif %}
-
-  <span>{{ paginator.page }}</span>
 </div>
 
