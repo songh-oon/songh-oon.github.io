@@ -54,7 +54,7 @@ paginate_multiple:
 exclude: [ Gemfile, Gemfile.lock ] #tale.gemspec 
 
 # Disqus (Set to your disqus id)
-disqus:         #jekyll-tale
+disqus: songhoon1217@gmail.com      #jekyll-tale
 
 
 

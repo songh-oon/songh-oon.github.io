@@ -3,6 +3,7 @@ layout: post
 title:  "공부 Sample1"
 menu: "공부"
 tags: "StudySample"
+comments: True
 ---
 
 
