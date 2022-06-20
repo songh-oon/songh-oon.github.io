@@ -36,7 +36,7 @@ permalink:      /:year-:month-:day/:title
 
 
 
-paginate: 5
+#paginate: 5
 #paginate_multiple:
 #  - paginate: 4
 #    paginate_path: '/study/page:num/'
