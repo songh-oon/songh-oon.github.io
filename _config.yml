@@ -1,0 +1,63 @@
+# Site settings
+title:          송훈의 기록
+description:    "송훈의 기록"
+baseurl:        ""
+url:            "https://songh-oon.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Songhoon Kim
+  url:          "https://songh-oon.github.io"
+  email:        songhoon1217@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-paginate-multiple
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+
+
+
+paginate: 5
+paginate_multiple:
+  - paginate: 4
+    paginate_path: '/study/page:num/'
+    sub_dir: '/study'
+  - paginate: 4
+    paginate_path: '/daily/page:num/'
+    sub_dir: '/daily'
+  - paginate: 4
+    paginate_path: '/thoughts/page:num/'
+    sub_dir: '/thoughts'
+
+
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock ] #tale.gemspec 
+
+# Disqus (Set to your disqus id)
+disqus:         #jekyll-tale
+
+
+
+#deployment
+host: 0.0.0.0
+port: 4000

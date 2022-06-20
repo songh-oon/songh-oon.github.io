@@ -1,0 +1,13 @@
+- name: 송훈
+  link: /about
+- name: 모두
+  link: /
+- name: 공부
+  link: /study
+- name: 감상
+  link: /thoughts
+- name: 일상
+  link: /daily
+- name: 태그
+  link: /tags
+  

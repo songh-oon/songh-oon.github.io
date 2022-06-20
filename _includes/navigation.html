@@ -1,0 +1,11 @@
+<nav class="nav">
+  <div class="nav-container">
+  <ul>
+  {% for item in site.data.navigation %}
+    <li><a href="{{ item.link }}" {% if page.title == item.name %} class="nav-current" {% elsif item.name == "모두" and page.title == "Home" %}class="nav-current" {% elsif page.menu == item.name %} class="nav-current"{% endif %}>
+      {{ item.name }}
+    </a></li>     
+  {% endfor %}
+    </ul>
+  </div>
+</nav>
