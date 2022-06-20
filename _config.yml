@@ -51,13 +51,10 @@ paginate_multiple:
 
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock ] #tale.gemspec 
+exclude: [ Gemfile, Gemfile.lock ] 
 
 # Disqus (Set to your disqus id)
-disqus: songhoon1217@gmail.com      #jekyll-tale
+disqus: songhunyi-girog     
 
 
 
-#deployment
-host: 0.0.0.0
-port: 4000
