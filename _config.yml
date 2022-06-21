@@ -56,5 +56,3 @@ exclude: [ Gemfile, Gemfile.lock ]
 # Disqus (Set to your disqus id)
 disqus: songhunyi-girog     
 
-
-

@@ -11,14 +11,21 @@ layout: default
   
   {{ content }}
   
-</div>
+  </div>
 
-{% if page.comments %}
-  {% include disqus_comments.html %}
-{% endif %}
-
-<div class="pagination">
-
-
+  <div class="social">
+    <a href='mailto:songhoon1217@gmail.com'>
+      <ion-icon name="mail-outline" class="social-icon"></ion-icon>
+    </a>
+    <a href='https://github.com/songh-oon/'>
+        <ion-icon name="logo-github" class="social-icon"></ion-icon>
+    </a>
+    <a href='https://www.instagram.com/songhoon_kim_'>
+        <ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+    </a>
+  </div>
+  
+    
+  <div class="pagination">
   <a href="#" class="top">Top</a>
 </div>
