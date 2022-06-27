@@ -74,12 +74,13 @@ jekyll new [폴더이름]
 menu : 공부    "마크다운에서 설정"
 ```
 다음 코드를 이용해서
+{% raw %}
 ~~~liquid
 {% if post.menu == "공부" %}
 	{% include catalogue_item.html %}
 {% endif %}				    		
 ~~~
-
+{% endraw %}
 각 페이지에 보여질 수 있도록 했다. 자세한 코드는 [여기](https://github.com/songh-oon/songh-oon.github.io/blob/main/study/index.html)서 확인할 수 있다.
 
 그리고 나서 지킬의 pagination-multiple 이라는 플러그인을 통해서 각 페이지의 pagination을 구현했는데 이게 작동이 안되어서 나중에 알고보니, github pages는 해당 플러그인을 지원하지 않는다고 한다. 혹시 지킬 블로그 구성중에 플러그인을 사용하게 되면 [이곳](https://pages.github.com/versions/)에서 미리 해당 플러그인을 지원하는지 확인하는것을 추천한다. 나처럼 코드를 다 날리지 마시구.. 
