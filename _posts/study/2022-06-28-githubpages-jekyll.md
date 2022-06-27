@@ -69,10 +69,11 @@ jekyll new [폴더이름]
 #### 1. 구성
 그래서 우선 내가 생각한 블로그 구성인
 `공부` `감상` `일상`  세가지 카테고리 페이지를 [Pages](https://jekyllrb-ko.github.io/docs/pages/)를 이용하여 구성하였고,
-포스트 폴더에 있는 포스트들은 내가 설정한 `menu :` 와 다음 코드를 이용해서
+포스트 폴더에 있는 포스트들은 내가 설정한 `menu :` 와
 ```
 menu : 공부    "마크다운에서 설정"
 ```
+다음 코드를 이용해서
 ```liquid
 {% if post.menu == "공부" %}
 	{% include catalogue_item.html %}
