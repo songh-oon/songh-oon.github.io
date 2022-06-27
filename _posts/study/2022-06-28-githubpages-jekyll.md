@@ -118,6 +118,6 @@ menu : 공부    "마크다운에서 설정"
  
 
 
-[^1]: https://www.jihyeleee.com/blog/third-designer-can-make-jekyll-blog/ 
+[^1]: <a>https://www.jihyeleee.com/blog/third-designer-can-make-jekyll-blog/</a>
 
 [^2]: 파비콘(영어: favicon, 'favorites + icon') 또는 패비콘이란 인터넷 웹 브라우저의 주소창에 표시되는 웹사이트나 웹페이지를 대표하는 아이콘이다. (위키백과, 우리 모두의 백과사전.)
