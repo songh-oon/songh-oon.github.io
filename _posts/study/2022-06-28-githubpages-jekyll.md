@@ -74,11 +74,11 @@ jekyll new [폴더이름]
 menu : 공부    "마크다운에서 설정"
 ```
 
-```  
+~~~~ 
 {% if post.menu == "공부" %}
 	{% include catalogue_item.html %}
 {% endif %}				    		
-```
+~~~~
 
 각 페이지에 보여질 수 있도록 했다. 자세한 코드는 [여기](https://github.com/songh-oon/songh-oon.github.io/blob/main/study/index.html)서 확인할 수 있다.
 
