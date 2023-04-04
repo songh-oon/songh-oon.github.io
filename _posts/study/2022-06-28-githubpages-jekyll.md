@@ -5,6 +5,7 @@ menu : 공부
 author: 송훈
 tags: Jekyll
 comments: true
+published: false
 
 ---
 

@@ -14,7 +14,7 @@ $code-color: #F94C66 !default;
 $serif-primary: 'Noto Serif KR', serif !default;
 $serif-secondary: 'Noto Serif KR', serif !default;
 $sans-serif: 'Gowun Dodum', sans-serif !default;
-$monospaced: Menlo, Monaco, monospace !default;
+$monospaced: 'D2Coding', monospace !default;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;
