@@ -4,10 +4,10 @@
   link: /
 - name: 공부
   link: /study
+- name: 음악
+  link: /music
 - name: 감상
   link: /thoughts
-- name: 일상
-  link: /daily
 - name: 태그
   link: /tags
   

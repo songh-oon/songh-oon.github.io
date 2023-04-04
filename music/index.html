@@ -1,15 +1,15 @@
 ---
 layout: default
-title: 일상
-description: 나의 일상, 경험들
+title: 음악
+description: 음악에 관한 모든 것.
 
 
 
 ---
 
 <div class="menuhead">
-    <p>나의 일상, 경험들 </p>
-    <!-- <p class="menuhead-eng">Daily life, and what I experienced.</p> -->
+    <p>음악에 관한 모든 것. </p>
+    <!-- <p class="menuhead-eng"> all about music </p> -->
 </div>
 
 <div class="catalogue">
@@ -22,9 +22,8 @@ description: 나의 일상, 경험들
 
   {% assign sorted = site.posts | sort: 'order' %}
   {% for post in sorted %}
-    {% if post.menu == "일상" %}
+    {% if post.menu == "음악" %}
       {% include catalogue_item.html %}
     {% endif %}
   {% endfor %}
 </div>
-
