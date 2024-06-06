@@ -5,7 +5,7 @@ menu : 음악
 author : 송훈
 tags: 음향, X32 
 comments : False
-published: True
+published: False
 
 ---
 
