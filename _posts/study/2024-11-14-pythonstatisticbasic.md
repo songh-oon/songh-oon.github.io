@@ -1,4 +1,3 @@
-
 ---
 layout : post
 title : "Python Statistic Basic"
@@ -9,7 +8,7 @@ comments : False
 published: True
 
 ---
-``
+
 
 ### SPSS보다 Python을 쓸 테야
 
