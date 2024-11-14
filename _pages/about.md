@@ -15,11 +15,11 @@ permalink: /about/
 
 #### Interests ####
 
-: Music, Band, Instruments, Sound Engineering, SR, Psychology, EFL, Coffee ,,,
+: Music, Band, Instruments, Sound Engineering, SR, Psychology, Industrial-Organizational (I/O) Psychology, Algorithm, EFL, Coffee, etc. 
 
 <br>
 
-#### 대학생 🧑‍💻 ####
+#### 대학생 🧑‍💻 BA students ####
 
 major in `English Education`, `Psychology` in CAU(Seoul, Korea)       
 
